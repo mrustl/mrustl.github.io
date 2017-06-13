@@ -29,7 +29,7 @@ blogdown::build_site(local = FALSE)
 ### folder which is required to work for GITHUB (all changed content of 
 ### the docs folder needs to be committed to Github for the blog to be
 ### updated)
-file.copy(from = "public/.",to = "docs",overwrite = TRUE,recursive = TRUE)
+file.copy(from = "_backend/public/.",to = "/",overwrite = TRUE,recursive = TRUE)
 ```
 
 If completed finally commit (vit GIT/Subversion) the changed files in the following two directories:
