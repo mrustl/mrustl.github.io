@@ -34,9 +34,9 @@ file.copy(from = "_backend/public/.",to = "/",overwrite = TRUE,recursive = TRUE)
 
 If completed finally commit (vit GIT/Subversion) the changed files in the following two directories:
 
-- content
+- _backend/content
 
-- docs
+- the repo`s root directory (containing the copied files from subfolder ***_backend/public***)
 
 
 and you are done. 
