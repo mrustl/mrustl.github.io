@@ -1,6 +1,8 @@
 baseurl = "https://mrustl.github.io/"  # End your URL with a `/` trailing slash.
 title = ""
-copyright = "&copy; 2017 Michael Rustler"
+copyright = "&copy; 2018 Michael Rustler"
+publishDir = "../"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -134,9 +136,24 @@ defaultContentLanguageInSubdir = false
     link = "//twitter.com/MichaelRustler"
 
   [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "//linkedin.com/in/michael-rustler-61497911"
+
+  [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
     link = "//scholar.google.de/citations?user=hD2epVEAAAAJ&hl=de&oi=ao"
+
+  [[params.social]]
+    icon = "orcid"
+    icon_pack = "ai"
+    link = "//orcid.org/0000-0003-0647-7726"
+
+  [[params.social]]
+    icon = "researchgate"
+    icon_pack = "ai"
+    link = "//researchgate.net/profile/Michael_Rustler"
 
   [[params.social]]
     icon = "github"

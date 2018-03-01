@@ -16,27 +16,27 @@ devtools::install_github("rstudio/blogdown")
 
 ### 2. Step) Create/Add new contentpost
 
-Change file(s) in subdirectory ***content***.
+Change file(s) in subdirectory ***_backend/content***.
 
 ### 3. Step) Update the website
 
-To do so run the following R code: 
+To do so run the following open the R Project file `website.Rproj` located in 
+the `_backend` folder and run the following command 
+
+
 ```r
 
 blogdown::build_site(local = FALSE)
 
-### Copies files from public folder (please do not COMMIT!!) into docs 
-### folder which is required to work for GITHUB (all changed content of 
-### the docs folder needs to be committed to Github for the blog to be
-### updated)
-file.copy(from = "_backend/public/.",to = "/",overwrite = TRUE,recursive = TRUE)
 ```
 
-If completed finally commit (vit GIT/Subversion) the changed files in the following two directories:
+If completed finally commit (vit GIT/Subversion) the changed files in the 
+following two directories:
 
 - _backend/content
 
-- the repo`s root directory (containing the copied files from subfolder ***_backend/public***)
+- the repo`s root directory (containing the updated website files after running 
+  `blogdown::build_site(local = FALSE)`)
 
 
 and you are done. 
