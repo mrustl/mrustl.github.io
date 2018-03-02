@@ -68,6 +68,15 @@
     
     <url>
     
+      <loc>https://mrustl.github.io/post/2015-07-23-r-rmarkdown/</loc>
+      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://mrustl.github.io/publication/data-management/</loc>
       <lastmod>2013-09-01T00:00:00+00:00</lastmod>
     </url>
@@ -126,6 +135,16 @@
     
     <url>
     
+      <loc>https://mrustl.github.io/tags/plot/</loc>
+      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://mrustl.github.io/project/</loc>
       <lastmod>2018-03-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -138,6 +157,36 @@
     
       <loc>https://mrustl.github.io/publication_types/</loc>
       <lastmod>2013-09-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mrustl.github.io/categories/r/</loc>
+      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mrustl.github.io/tags/r-markdown/</loc>
+      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mrustl.github.io/tags/regression/</loc>
+      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     
