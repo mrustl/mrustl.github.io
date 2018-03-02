@@ -6,10 +6,10 @@ date = "2017-06-12"
 title = "FAKIN"
 
 # Project summary to display on homepage.
-summary = "Forschungsdatenmanagement an kleinen Instituten (gefördert durch das BMBF)"
+summary = "Data management at small research institutes (funded by BMBF)"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "boards.jpg"
+image_preview = "project_logos/fakin.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

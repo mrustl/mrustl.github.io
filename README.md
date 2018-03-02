@@ -25,7 +25,7 @@ the `_backend` folder and run the following command
 
 
 ```r
-
+### Rebuild website with blogdown and export from /_backend to ../ 
 blogdown::build_site(local = FALSE)
 
 ```
