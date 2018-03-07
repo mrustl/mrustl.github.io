@@ -245,6 +245,26 @@ defaultContentLanguageInSubdir = false
     link = "//researchgate.net/profile/Michael_Rustler"
 
   [[params.social]]
+    icon = "osf"
+    icon_pack = "ai"
+    link = "//osf.io/85sxj"	
+
+  [[params.social]]
+    icon = "zotero"
+    icon_pack = "ai"
+    link = "//zotero.org/mrustl"
+
+  [[params.social]]
+    icon = "mendeley"
+    icon_pack = "ai"
+    link = "//mendeley.com/profiles/michael-rustler"
+    
+  [[params.social]]
+    icon = "depsy"
+    icon_pack = "ai"
+    link = "//depsy.org/person/335215"    
+    
+  [[params.social]]
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/mrustl"
