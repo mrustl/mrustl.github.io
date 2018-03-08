@@ -145,7 +145,7 @@ defaultContentLanguageInSubdir = false
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
+  highlight_languages = ["r", "yaml"]
   # highlight_style = "github"
 
   # Enable native social sharing buttons?
@@ -268,6 +268,11 @@ defaultContentLanguageInSubdir = false
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/mrustl"
+    
+  [[params.social]]
+    icon = "impactstory"
+    icon_pack = "ai"
+    link = "//profiles.impactstory.org/u/0000-0003-0647-7726"
 
 
 # Navigation Links
