@@ -16,30 +16,26 @@ devtools::install_github("rstudio/blogdown")
 
 ### 2. Step) Create/Add new contentpost
 
-Change file(s) in subdirectory ***_backend/content***.
+Change file(s) in subdirectory ***content***.
 
 ### 3. Step) Update the website
 
-To do so run the following open the R Project file `website.Rproj` located in 
-the `_backend` folder and run the following command 
+To do: add automatic step that: 
 
+1. Runs travis 
+
+2. Calls blogdown::build_site(local = FALSE)
 
 ```r
-### Rebuild website with blogdown and export from /_backend to ../ 
-blogdown::build_site(local = FALSE)
+### Rebuild website with blogdown and export from "dev" branch 
+### to "master" branch
 
+blogdown::build_site(local = FALSE)
 ```
 
-If completed finally commit (vit GIT/Subversion) the changed files in the 
-following two directories:
-
-- _backend/content
-
-- the repo`s root directory (containing the updated website files after running 
-  `blogdown::build_site(local = FALSE)`)
+3. Pushes changes to "master" branch 
 
 
-and you are done. 
 
 
 ### 4. Step) Visit the updated website
