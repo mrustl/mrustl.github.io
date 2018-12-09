@@ -1,13 +1,13 @@
 +++
 date = 2017-03-09T00:00:00
-title = "Energetische Optimierung der Wassergewinnung von Brunnenfeldern"
+title = "Energetic Optimisation Of Water Abstraction Of Well Fields"
 time_start = 2017-03-09T13:00:00
 time_end = 2017-03-09T13:20:00
 abstract = ""
 abstract_short = ""
-event = "ENERWA-Abschlusskonferenz: als 28. Mülheimer Wassertechnisches Seminar"
+event = "ENERWA - Concluding Conference: 28th Mülheim Water Technical Seminar"
 event_url = "https://enerwa.org/enerwa-abschlusskonferenz-9-maerz-2017"
-location = "Stadthalle Mühlheim an der Ruhr, Germany"
+location = "City Hall, Mühlheim an der Ruhr, Germany"
 
 selected = false
 
@@ -21,6 +21,9 @@ url_pdf = ""
 url_slides = "pdf/ENERWA_OPTIWELLS-2.pdf"
 url_video = ""
 url_code = ""
+
+
+url_custom = [{icon_pack = "fas", icon="book", name="Flyer", url = "https://enerwa.org/enerwa-abschlusskonferenz-9-maerz-2017"}]
 
 # Does the content use math formatting?
 math = true
