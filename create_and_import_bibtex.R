@@ -8,7 +8,7 @@
 installed_pkgs <- rownames(installed.packages())
 
 ## Install missing CRAN pkgs
-cran_pkgs <- c("remotes", "dplyr", "knitcitations", "reticulate", "data.table")
+cran_pkgs <- c("remotes", "dplyr", "RefManageR", "reticulate", "data.table")
 cran_missing <- !cran_pkgs %in% installed_pkgs
 
 if(any(cran_missing)) {
@@ -32,15 +32,25 @@ publications_with_dois <- data.table::rbindlist(publications$`external-ids.exter
     dplyr::filter(`external-id-type` == "doi")
   
 
-## Call knitcitations::citep for automatically citing all
-sapply(publications_with_dois$`external-id-value`, 
-       function(x) {
-         print(sprintf("Citing: %s", x))
-         try(knitcitations::citep(x))})
+## Create .bibtex from DOIs with RefManageR
+## for details see: browseURL("https://github.com/ropensci/RefManageR/")
+write_bibtex <- function(dois, file = "publications_orcid.bib", 
+                         overwrite = TRUE) {
 
+if(file.exists(file) == FALSE ||  overwrite == TRUE && file.exists(file))  {
+  cat(sprintf("Bibtex file '%s'...", file))  
+try(RefManageR::GetBibEntryWithDOI(dois,
+                               temp.file = file, 
+                               delete.file = FALSE))
+  cat("Done!")
+} else {
+   print(sprintf("Bibtex file %s already existing. Specify 'overwrite=TRUE' if 
+   you want to overwrite it!", file))
+ }
+}
 
-## Export all cited publications to "knitcitations.bib"
-knitcitations::write.bibtex(file = "knitcitations.bib")
+## Export all cited publications to  "publications_orcid.bib"
+write_bibtex(dois = publications_with_dois$`external-id-value`)
 
 ###############################################################################
 ### Step 2: Import .bibtex file to publications with Python 
