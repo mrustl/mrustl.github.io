@@ -187,4 +187,4 @@ missing in the **content/publication* folder. Check the step where
 `knitcitations::citep` is called and watch for errors!
 
 For pushing the changes to your website go through the steps defined in 
-[How to update the website](#howto-update-the-website) again!
+[How to update the website](#1-how-to-update-the-website) again!
