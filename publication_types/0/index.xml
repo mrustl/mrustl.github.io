@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on </title>
-    <link>https://mrustl.github.io/publication/</link>
-    <description>Recent content in Publications on </description>
+    <title>0 on </title>
+    <link>https://mrustl.github.io/publication_types/0/</link>
+    <description>Recent content in 0 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018 Michael Rustler</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mrustl.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mrustl.github.io/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -63,15 +63,6 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-58029/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Best data handling practices in water-related research</title>
-      <link>https://mrustl.github.io/publication/sonnenberg-2013/</link>
-      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://mrustl.github.io/publication/sonnenberg-2013/</guid>
       <description></description>
     </item>
     

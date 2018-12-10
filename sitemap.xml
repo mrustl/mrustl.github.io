@@ -12,6 +12,14 @@
     
     <url>
     
+      <loc>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-1244103/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://mrustl.github.io/project/fakin/</loc>
       <lastmod>2017-06-12T00:00:00+00:00</lastmod>
     </url>
@@ -44,7 +52,47 @@
     
     <url>
     
-      <loc>https://mrustl.github.io/publication/data-management/</loc>
+      <loc>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-61613/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-154111/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-61610/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-159527/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-58029/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.github.io/publication/sonnenberg-2013/</loc>
       <lastmod>2013-09-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -54,6 +102,15 @@
     
       <loc>https://mrustl.github.io/</loc>
       <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.github.io/publication_types/0/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -88,7 +145,25 @@
     <url>
     
       <loc>https://mrustl.github.io/publication_types/</loc>
-      <lastmod>2013-09-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.github.io/tags/r-package/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.github.io/tags/r-programming/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -97,6 +172,16 @@
     <url>
     
       <loc>https://mrustl.github.io/tags/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.github.io/tags/automation/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -122,8 +207,53 @@
     
     <url>
     
+      <loc>https://mrustl.github.io/tags/environmental-modelling/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.github.io/tags/open-source-software/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.github.io/tags/quantitative-microbiological-risk-assessment/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.github.io/tags/reproducibility/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://mrustl.github.io/tags/reproducible-research/</loc>
       <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.github.io/tags/water-research/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
