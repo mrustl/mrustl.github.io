@@ -7,7 +7,7 @@ abstract = ""
 selected = false
 publication = ""
 tags = ["quantitative microbiological risk assessment"]
-url_pdf = ""
+url_pdf = "https://zenodo.org/record/159527"
 doi = "10.5281/zenodo.159527"
 +++
 

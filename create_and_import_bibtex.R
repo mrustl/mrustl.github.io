@@ -9,11 +9,11 @@ installed_pkgs <- rownames(installed.packages())
 
 ## Install missing CRAN pkgs
 cran_pkgs <- c("remotes", "dplyr", "knitcitations", "reticulate", "data.table")
+cran_missing <- !cran_pkgs %in% installed_pkgs
 
-sapply(cran_pkgs, function(pkg) {
-        if(!pkg %in% installed_pkgs) {
-          install.packages(pkg, repos = "https://cloud.r-project.org")
-        }})
+if(any(cran_missing)) {
+  install.packages(cran_pkgs[cran_missing] , repos = "https://cloud.r-project.org")
+}
 
 ## Install latest version of KWB-R GitHub "kwb.orcid" package
 remotes::install_github("kwb-r/kwb.orcid")
@@ -70,12 +70,18 @@ reticulate::py_install(packages = "academic",
            pip = TRUE, pip_ignore_installed = TRUE) 
 
 
+## Should existing publications in content/publication folder be overwritten?
+overwrite <- TRUE
+
+option_overwrite <- ifelse(overwrite, "--overwrite", "")
+
 ### Create and run "import_bibtex.bat" batch file
-cmds <- sprintf('call "%s" activate "%s"\ncd "%s"\nacademic import --bibtex "%s"', 
+cmds <- sprintf('call "%s" activate "%s"\ncd "%s"\nacademic import --bibtex "%s"  %s', 
                normalizePath(file.path(python_path, "Scripts/activate.bat")), 
                env,
                normalizePath(getwd()),
-               "knitcitations.bib")
+               "knitcitations.bib",
+               option_overwrite)
 
 writeLines(cmds,con = "import_bibtex.bat")
 
