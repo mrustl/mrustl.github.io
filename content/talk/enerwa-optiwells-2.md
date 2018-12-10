@@ -23,7 +23,7 @@ url_video = ""
 url_code = ""
 
 
-url_custom = [{icon_pack = "fas", icon="book", name="Flyer", url = "https://enerwa.org/enerwa-abschlusskonferenz-9-maerz-2017"}]
+#url_custom = [{icon_pack = "fas", icon="book", name="Flyer", url = "https://enerwa.org/enerwa-abschlusskonferenz-9-maerz-2017"}]
 
 # Does the content use math formatting?
 math = true
