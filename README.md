@@ -40,7 +40,7 @@ remotes::install_github("rstudio/blogdown")
 with explicitly specifying version number for reproducibility
 
 ```r
-blogdown::install_hugo(version = "0.52")
+blogdown::install_hugo(version = "0.52", force = TRUE)
 ```
 
 ### Build/preview site locally
