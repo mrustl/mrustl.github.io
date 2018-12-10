@@ -8,20 +8,22 @@
 installed_pkgs <- rownames(installed.packages())
 
 ## Install missing CRAN pkgs
-cran_pkgs <- c("remotes", "dplyr", "RefManageR", "reticulate", "data.table")
+cran_pkgs <- c("remotes", "dplyr", "readr", "reticulate", "data.table")
 cran_missing <- !cran_pkgs %in% installed_pkgs
 
 if(any(cran_missing)) {
   install.packages(cran_pkgs[cran_missing] , repos = "https://cloud.r-project.org")
 }
 
+remotes::install_github("ropensci/RefManageR")
+
 ## Install latest version of KWB-R GitHub "kwb.orcid" package
 remotes::install_github("kwb-r/kwb.orcid")
   
 library(magrittr)
 
-secret <- read.csv("secret.csv")
-Sys.setenv("ORCID_TOKEN" =  secret$orcid_token)
+secret <- readr::read_csv("secret.csv")
+
 
 ## Get all of Michael Rustler`s publications from ORCID
 orcid <- kwb.orcid::get_kwb_orcids()[4]
@@ -90,7 +92,7 @@ cmds <- sprintf('call "%s" activate "%s"\ncd "%s"\nacademic import --bibtex "%s"
                normalizePath(file.path(python_path, "Scripts/activate.bat")), 
                env,
                normalizePath(getwd()),
-               "knitcitations.bib",
+               "publications_orcid.bib",
                option_overwrite)
 
 writeLines(cmds,con = "import_bibtex.bat")

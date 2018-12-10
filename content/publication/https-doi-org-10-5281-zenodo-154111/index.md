@@ -6,7 +6,6 @@ publication_types = ["0"]
 abstract = ""
 selected = false
 publication = ""
-url_pdf = "https://zenodo.org/record/154111"
 doi = "10.5281/zenodo.154111"
 +++
 

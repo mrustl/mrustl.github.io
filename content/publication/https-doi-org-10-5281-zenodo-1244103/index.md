@@ -7,7 +7,6 @@ abstract = ""
 selected = false
 publication = ""
 tags = ["R package"]
-url_pdf = "https://zenodo.org/record/1244103"
 doi = "10.5281/zenodo.1244103"
 +++
 

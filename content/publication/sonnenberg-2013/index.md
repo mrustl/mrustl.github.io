@@ -6,7 +6,7 @@ publication_types = ["2"]
 abstract = ""
 selected = false
 publication = "*Water Practice and Technology*"
-url_pdf = "https://doi.org/10.2166/wpt.2013.039"
+url_pdf = "https://doi.org/10.2166%2Fwpt.2013.039"
 doi = "10.2166/wpt.2013.039"
 +++
 
