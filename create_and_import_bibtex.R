@@ -8,22 +8,22 @@
 installed_pkgs <- rownames(installed.packages())
 
 ## Install missing CRAN pkgs
-cran_pkgs <- c("remotes", "dplyr", "readr", "reticulate", "data.table")
+cran_pkgs <- c("remotes", "dplyr", "readr", "RefManageR", "reticulate", "data.table")
 cran_missing <- !cran_pkgs %in% installed_pkgs
 
 if(any(cran_missing)) {
   install.packages(cran_pkgs[cran_missing] , repos = "https://cloud.r-project.org")
 }
 
-remotes::install_github("ropensci/RefManageR")
+#remotes::install_github("ropensci/RefManageR")
 
 ## Install latest version of KWB-R GitHub "kwb.orcid" package
 remotes::install_github("kwb-r/kwb.orcid")
   
 library(magrittr)
 
-secret <- readr::read_csv("secret.csv")
-
+secret <- read.csv("secret.csv")
+Sys.setenv("ORCID_TOKEN" =  secret$orcid_token)
 
 ## Get all of Michael Rustler`s publications from ORCID
 orcid <- kwb.orcid::get_kwb_orcids()[4]
@@ -31,24 +31,24 @@ publications <- kwb.orcid::create_publications_df_for_orcids(orcids = orcid)
 
 ## Put all with DOI in a data.frame 
 publications_with_dois <- data.table::rbindlist(publications$`external-ids.external-id`) %>%  
-    dplyr::filter(`external-id-type` == "doi")
-  
+  dplyr::filter(`external-id-type` == "doi")
+
 
 ## Create .bibtex from DOIs with RefManageR
 ## for details see: browseURL("https://github.com/ropensci/RefManageR/")
 write_bibtex <- function(dois, file = "publications_orcid.bib", 
                          overwrite = TRUE) {
-
-if(file.exists(file) == FALSE ||  overwrite == TRUE && file.exists(file))  {
-  cat(sprintf("Bibtex file '%s'...", file))  
-try(RefManageR::GetBibEntryWithDOI(dois,
-                               temp.file = file, 
-                               delete.file = FALSE))
-  cat("Done!")
-} else {
-   print(sprintf("Bibtex file %s already existing. Specify 'overwrite=TRUE' if 
+  
+  if(file.exists(file) == FALSE ||  overwrite == TRUE && file.exists(file))  {
+    cat(sprintf("Bibtex file '%s'...", file))  
+    try(RefManageR::GetBibEntryWithDOI(dois,
+                                       temp.file = file, 
+                                       delete.file = FALSE))
+    cat("Done!")
+  } else {
+    print(sprintf("Bibtex file %s already existing. Specify 'overwrite=TRUE' if 
    you want to overwrite it!", file))
- }
+  }
 }
 
 ## Export all cited publications to  "publications_orcid.bib"
