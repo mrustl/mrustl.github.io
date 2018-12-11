@@ -2,22 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>energy-efficiency on </title>
-    <link>https://mrustl.github.io/tags/energy-efficiency/</link>
+    <link>https://mrustl.de/tags/energy-efficiency/</link>
     <description>Recent content in energy-efficiency on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018 Michael Rustler</copyright>
     <lastBuildDate>Fri, 02 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mrustl.github.io/tags/energy-efficiency/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mrustl.de/tags/energy-efficiency/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>OPTIWELLS-2</title>
-      <link>https://mrustl.github.io/project/optiwells-2/</link>
+      <link>https://mrustl.de/project/optiwells-2/</link>
       <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.github.io/project/optiwells-2/</guid>
+      <guid>https://mrustl.de/project/optiwells-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Energetic Optimisation Of Water Abstraction Of Well Fields</title>
+      <link>https://mrustl.de/talk/enerwa/</link>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/talk/enerwa/</guid>
       <description></description>
     </item>
     

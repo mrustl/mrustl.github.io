@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://mrustl.github.io/</link>
+    <link>https://mrustl.de/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -12,100 +12,109 @@
     
     <item>
       <title>OPTIWELLS-2</title>
-      <link>https://mrustl.github.io/project/optiwells-2/</link>
+      <link>https://mrustl.de/project/optiwells-2/</link>
       <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.github.io/project/optiwells-2/</guid>
+      <guid>https://mrustl.de/project/optiwells-2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aquanes.Report (V0.5.0)</title>
-      <link>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-1244103/</link>
+      <link>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-1244103/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-1244103/</guid>
+      <guid>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-1244103/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FAKIN</title>
-      <link>https://mrustl.github.io/project/fakin/</link>
+      <link>https://mrustl.de/project/fakin/</link>
       <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.github.io/project/fakin/</guid>
+      <guid>https://mrustl.de/project/fakin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Energetic Optimisation Of Water Abstraction Of Well Fields</title>
-      <link>https://mrustl.github.io/talk/enerwa-optiwells-2/</link>
+      <link>https://mrustl.de/talk/enerwa/</link>
       <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.github.io/talk/enerwa-optiwells-2/</guid>
+      <guid>https://mrustl.de/talk/enerwa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aquanes.Report (V.0.4.0)</title>
-      <link>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-825030/</link>
+      <link>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-825030/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-825030/</guid>
+      <guid>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-825030/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wrap Your Model In An R Package</title>
+      <link>https://mrustl.de/talk/user2016/</link>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/talk/user2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quantitative microbiological risk assessment for different wastewater reuse options in Old Ford (v.1.0)</title>
-      <link>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-159527/</link>
+      <link>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-159527/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-159527/</guid>
+      <guid>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-159527/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wrap your model in an R package!</title>
-      <link>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-58029/</link>
+      <link>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-58029/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-58029/</guid>
+      <guid>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-58029/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kwb.hantush (v0.2.1)</title>
-      <link>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-61613/</link>
+      <link>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-61613/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-61613/</guid>
+      <guid>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-61613/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kwb.qmra (v0.1.1)</title>
-      <link>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-154111/</link>
+      <link>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-154111/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-154111/</guid>
+      <guid>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-154111/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kwb.wtaq (v0.2.1)</title>
-      <link>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-61610/</link>
+      <link>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-61610/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.github.io/publication/https-doi-org-10-5281-zenodo-61610/</guid>
+      <guid>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-61610/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Best data handling practices in water-related research</title>
-      <link>https://mrustl.github.io/publication/sonnenberg-2013/</link>
+      <link>https://mrustl.de/publication/sonnenberg-2013/</link>
       <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.github.io/publication/sonnenberg-2013/</guid>
+      <guid>https://mrustl.de/publication/sonnenberg-2013/</guid>
       <description></description>
     </item>
     
