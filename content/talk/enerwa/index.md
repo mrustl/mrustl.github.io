@@ -16,6 +16,10 @@ selected = false
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 projects = ["optiwells-2"]
 
+# Tags (optional).
+#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
+tags = ["energy-efficiency", "groundwater modelling"]
+
 # Links (optional).
 url_pdf = ""
 url_slides = "pdf/ENERWA_OPTIWELLS-2.pdf"

@@ -8,5 +8,6 @@ selected = false
 publication = ""
 tags = ["automation", "reproducibility", "open-source software", "R programming", "environmental modelling", "water research", "R package"]
 doi = "10.5281/zenodo.58029"
+projects = ["optiwells-2"]
 +++
 
