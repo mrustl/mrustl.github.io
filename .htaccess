@@ -1,6 +1,6 @@
 ### Automatic HTTP to HTTPS redirect 
 ### Code taken from: 
-### https://pixelbar.be/blog/htaccess-schnippsel-https-erzwingen/
+### https://www.redim.de/wissen/automatische-weiterleitung-von-http-zu-https
 RewriteEngine On
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://www.mrustl.de/$1 [R=301,L]
