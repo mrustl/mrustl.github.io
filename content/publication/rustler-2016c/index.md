@@ -1,12 +1,13 @@
 +++
-title = "Aquanes.Report (V0.5.0)"
-date = 2018-01-01
+title = "kwb.qmra (v0.1.1)"
+date = 2016-09-15
 authors = ["Michael Rustler"]
 publication_types = ["0"]
 abstract = ""
 selected = false
 publication = ""
 tags = ["R package"]
-doi = "10.5281/zenodo.1244103"
+doi = "10.5281/zenodo.154111"
+projects = ["demoware"]
 +++
 

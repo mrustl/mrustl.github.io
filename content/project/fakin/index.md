@@ -2,6 +2,10 @@
 # Project title.
 title = "FAKIN"
 
++++
+# Project title.
+title = "FAKIN"
+
 # Date this page was created.
 date = 2017-06-12T00:00:00
 
@@ -32,6 +36,10 @@ url_code = "https://github.com/topics/project-fakin"
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 #url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/Mi"}]
+
+
+url_custom = [{icon_pack = "fas", icon="bullseye", name="Factsheet", url = "https://www.kompetenz-wasser.de/en/project/fakin-research-data-management/"}, {icon_pack = "fas", icon="book", name="Documentation", url = "https://kwb-r.github.io/fakin.doc/"}]
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

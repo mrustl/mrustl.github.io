@@ -1,6 +1,6 @@
 +++
 title = "Wrap your model in an R package!"
-date = 2016-01-01
+date = 2016-06-28
 authors = ["Michael Rustler", "Hauke Sonnenberg"]
 publication_types = ["0"]
 abstract = ""
