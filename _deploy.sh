@@ -15,5 +15,5 @@ cd website-output
 git rm -rf *
 cp -r ../public/* ./
 git add --all *
-git commit -m "Update the website" || true
+git commit -m "update homepage (travis build ${TRAVIS_BUILD_NUMBER})" || true
 git push -q origin master
