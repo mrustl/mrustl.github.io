@@ -15,72 +15,81 @@
     <item>
       <title>kwb.resilience (v.0.1.0): R Package for the Quantification of Technical Resilience</title>
       <link>https://mrustl.de/publication/matzinger-2018/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mrustl.de/publication/matzinger-2018/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Aquanes.Report (V0.5.0)</title>
-      <link>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-1244103/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <title>kwb.fakin (v0.3.0)</title>
+      <link>https://mrustl.de/publication/sonnenberg-2018b/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-1244103/</guid>
+      <guid>https://mrustl.de/publication/sonnenberg-2018b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aquanes.Report (V0.5.0)</title>
+      <link>https://mrustl.de/publication/rustler-2018/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/rustler-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aquanes.Report (V.0.4.0)</title>
-      <link>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-825030/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <link>https://mrustl.de/publication/rustler-2017/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-825030/</guid>
+      <guid>https://mrustl.de/publication/rustler-2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quantitative microbiological risk assessment for different wastewater reuse options in Old Ford (v.1.0)</title>
-      <link>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-159527/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <link>https://mrustl.de/publication/rustler-2016d/</link>
+      <pubDate>Fri, 07 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-159527/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wrap your model in an R package!</title>
-      <link>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-58029/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-58029/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kwb.hantush (v0.2.1)</title>
-      <link>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-61613/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-61613/</guid>
+      <guid>https://mrustl.de/publication/rustler-2016d/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kwb.qmra (v0.1.1)</title>
-      <link>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-154111/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <link>https://mrustl.de/publication/rustler-2016c/</link>
+      <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-154111/</guid>
+      <guid>https://mrustl.de/publication/rustler-2016c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kwb.hantush (v0.2.1)</title>
+      <link>https://mrustl.de/publication/rustler-2016b/</link>
+      <pubDate>Tue, 06 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/rustler-2016b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kwb.wtaq (v0.2.1)</title>
-      <link>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-61610/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <link>https://mrustl.de/publication/sonnenberg-2016/</link>
+      <pubDate>Tue, 06 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-61610/</guid>
+      <guid>https://mrustl.de/publication/sonnenberg-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wrap your model in an R package!</title>
+      <link>https://mrustl.de/publication/rustler-2016a/</link>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/rustler-2016a/</guid>
       <description></description>
     </item>
     

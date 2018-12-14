@@ -5,7 +5,23 @@
     <url>
     
       <loc>https://mrustl.de/publication/matzinger-2018/</loc>
-      <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-12-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.de/publication/sonnenberg-2018b/</loc>
+      <lastmod>2018-07-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.de/publication/rustler-2018/</loc>
+      <lastmod>2018-05-09T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -20,16 +36,8 @@
     
     <url>
     
-      <loc>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-1244103/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://mrustl.de/project/fakin/</loc>
-      <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+      <loc>https://mrustl.de/publication/rustler-2017/</loc>
+      <lastmod>2017-07-10T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -38,14 +46,6 @@
     
       <loc>https://mrustl.de/talk/enerwa/</loc>
       <lastmod>2017-03-09T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-825030/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -68,6 +68,38 @@
     
     <url>
     
+      <loc>https://mrustl.de/publication/rustler-2016d/</loc>
+      <lastmod>2016-10-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.de/publication/rustler-2016c/</loc>
+      <lastmod>2016-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.de/publication/rustler-2016b/</loc>
+      <lastmod>2016-09-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.de/publication/sonnenberg-2016/</loc>
+      <lastmod>2016-09-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://mrustl.de/talk/user2016/</loc>
       <lastmod>2016-06-28T00:00:00+00:00</lastmod>
     </url>
@@ -76,40 +108,8 @@
     
     <url>
     
-      <loc>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-159527/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-58029/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-61613/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-154111/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://mrustl.de/publication/https-doi-org-10-5281-zenodo-61610/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <loc>https://mrustl.de/publication/rustler-2016a/</loc>
+      <lastmod>2016-06-28T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -134,7 +134,7 @@
     <url>
     
       <loc>https://mrustl.de/publication_types/0/</loc>
-      <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-12-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -159,6 +159,13 @@
     
     <url>
     
+      <loc>https://mrustl.de/project/fakin/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://mrustl.de/project/</loc>
       <lastmod>2018-03-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -169,7 +176,7 @@
     <url>
     
       <loc>https://mrustl.de/publication_types/</loc>
-      <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-12-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -178,7 +185,7 @@
     <url>
     
       <loc>https://mrustl.de/tags/r-package/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -187,7 +194,7 @@
     <url>
     
       <loc>https://mrustl.de/tags/r-programming/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2016-06-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -196,7 +203,7 @@
     <url>
     
       <loc>https://mrustl.de/tags/r-script/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2016-10-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -205,7 +212,7 @@
     <url>
     
       <loc>https://mrustl.de/tags/research-compendium/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2016-10-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -214,7 +221,7 @@
     <url>
     
       <loc>https://mrustl.de/tags/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -223,16 +230,7 @@
     <url>
     
       <loc>https://mrustl.de/tags/automation/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://mrustl.de/tags/data-management/</loc>
-      <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+      <lastmod>2016-06-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -250,7 +248,7 @@
     <url>
     
       <loc>https://mrustl.de/tags/environmental-modelling/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2016-06-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -268,7 +266,7 @@
     <url>
     
       <loc>https://mrustl.de/tags/open-source-software/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2016-06-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -277,7 +275,7 @@
     <url>
     
       <loc>https://mrustl.de/tags/quantitative-microbiological-risk-assessment/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2016-10-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -294,17 +292,8 @@
     
     <url>
     
-      <loc>https://mrustl.de/tags/reproducible-research/</loc>
-      <lastmod>2017-06-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://mrustl.de/tags/water-research/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2016-06-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

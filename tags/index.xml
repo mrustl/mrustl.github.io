@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018 Michael Rustler</copyright>
-    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mrustl.de/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>R package</title>
       <link>https://mrustl.de/tags/r-package/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mrustl.de/tags/r-package/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>R programming</title>
       <link>https://mrustl.de/tags/r-programming/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://mrustl.de/tags/r-programming/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>R script</title>
       <link>https://mrustl.de/tags/r-script/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 07 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://mrustl.de/tags/r-script/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Research Compendium</title>
       <link>https://mrustl.de/tags/research-compendium/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 07 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://mrustl.de/tags/research-compendium/</guid>
       <description></description>
@@ -51,18 +51,9 @@
     <item>
       <title>automation</title>
       <link>https://mrustl.de/tags/automation/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://mrustl.de/tags/automation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data-management</title>
-      <link>https://mrustl.de/tags/data-management/</link>
-      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mrustl.de/tags/data-management/</guid>
       <description></description>
     </item>
     
@@ -78,7 +69,7 @@
     <item>
       <title>environmental modelling</title>
       <link>https://mrustl.de/tags/environmental-modelling/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://mrustl.de/tags/environmental-modelling/</guid>
       <description></description>
@@ -96,7 +87,7 @@
     <item>
       <title>open-source software</title>
       <link>https://mrustl.de/tags/open-source-software/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://mrustl.de/tags/open-source-software/</guid>
       <description></description>
@@ -105,7 +96,7 @@
     <item>
       <title>quantitative microbiological risk assessment</title>
       <link>https://mrustl.de/tags/quantitative-microbiological-risk-assessment/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 07 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://mrustl.de/tags/quantitative-microbiological-risk-assessment/</guid>
       <description></description>
@@ -121,18 +112,9 @@
     </item>
     
     <item>
-      <title>reproducible-research</title>
-      <link>https://mrustl.de/tags/reproducible-research/</link>
-      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mrustl.de/tags/reproducible-research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>water research</title>
       <link>https://mrustl.de/tags/water-research/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://mrustl.de/tags/water-research/</guid>
       <description></description>
