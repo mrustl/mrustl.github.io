@@ -1,6 +1,0 @@
-### Automatic HTTP to HTTPS redirect 
-### Code taken from: 
-### https://www.redim.de/wissen/automatische-weiterleitung-von-http-zu-https
-RewriteEngine On
-RewriteCond %{SERVER_PORT} !=443
-RewriteRule ^(.*)$ https://www.mrustl.de/$1 [R=301,L]
