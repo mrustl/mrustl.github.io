@@ -83,7 +83,7 @@ reticulate::py_install(packages = "academic",
 
 
 ## Should existing publications in content/publication folder be overwritten?
-overwrite <- TRUE
+overwrite <- FALSE
 
 option_overwrite <- ifelse(overwrite, "--overwrite", "")
 
