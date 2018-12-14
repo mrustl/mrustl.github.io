@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>kwb.resilience (v.0.1.0): R Package for the Quantification of Technical Resilience</title>
+      <link>https://mrustl.de/publication/matzinger-2018/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/matzinger-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>OPTIWELLS-2</title>
       <link>https://mrustl.de/project/optiwells-2/</link>
       <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
