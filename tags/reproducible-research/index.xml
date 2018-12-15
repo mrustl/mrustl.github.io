@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reproducible-research on </title>
+    <link>https://mrustl.de/tags/reproducible-research/</link>
+    <description>Recent content in reproducible-research on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2018 Michael Rustler</copyright>
+    <lastBuildDate>Mon, 12 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mrustl.de/tags/reproducible-research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FAKIN</title>
+      <link>https://mrustl.de/project/fakin/</link>
+      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/project/fakin/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

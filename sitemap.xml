@@ -44,6 +44,14 @@
     
     <url>
     
+      <loc>https://mrustl.de/project/fakin/</loc>
+      <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://mrustl.de/talk/enerwa/</loc>
       <lastmod>2017-03-09T00:00:00+00:00</lastmod>
     </url>
@@ -159,13 +167,6 @@
     
     <url>
     
-      <loc>https://mrustl.de/project/fakin/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://mrustl.de/project/</loc>
       <lastmod>2018-03-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -238,6 +239,15 @@
     
     <url>
     
+      <loc>https://mrustl.de/tags/data-management/</loc>
+      <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://mrustl.de/tags/energy-efficiency/</loc>
       <lastmod>2018-03-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -285,6 +295,15 @@
     
       <loc>https://mrustl.de/tags/reproducibility/</loc>
       <lastmod>2016-06-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.de/tags/reproducible-research/</loc>
+      <lastmod>2017-06-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

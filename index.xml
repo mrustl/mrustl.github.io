@@ -56,6 +56,15 @@
     </item>
     
     <item>
+      <title>FAKIN</title>
+      <link>https://mrustl.de/project/fakin/</link>
+      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/project/fakin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Energetic Optimisation Of Water Abstraction Of Well Fields</title>
       <link>https://mrustl.de/talk/enerwa/</link>
       <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
@@ -125,80 +134,6 @@
       
       <guid>https://mrustl.de/publication/sonnenberg-2013/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>FAKIN</title>
-      <link>https://mrustl.de/project/fakin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mrustl.de/project/fakin/</guid>
-      <description>
-
-&lt;h1 id=&#34;project-title&#34;&gt;Project title.&lt;/h1&gt;
-
-&lt;p&gt;title = &amp;ldquo;FAKIN&amp;rdquo;&lt;/p&gt;
-
-&lt;h1 id=&#34;date-this-page-was-created&#34;&gt;Date this page was created.&lt;/h1&gt;
-
-&lt;p&gt;date = 2017-06-12T00:00:00&lt;/p&gt;
-
-&lt;h1 id=&#34;project-summary-to-display-on-homepage&#34;&gt;Project summary to display on homepage.&lt;/h1&gt;
-
-&lt;p&gt;summary = &amp;ldquo;Data management at small research institutes (funded by BMBF)&amp;rdquo;&lt;/p&gt;
-
-&lt;h1 id=&#34;tags-can-be-used-for-filtering-projects&#34;&gt;Tags: can be used for filtering projects.&lt;/h1&gt;
-
-&lt;h1 id=&#34;example-tags-machine-learning-deep-learning&#34;&gt;Example: &lt;code&gt;tags = [&amp;quot;machine-learning&amp;quot;, &amp;quot;deep-learning&amp;quot;]&lt;/code&gt;&lt;/h1&gt;
-
-&lt;p&gt;tags = [&amp;ldquo;data-management&amp;rdquo;, &amp;ldquo;reproducible-research&amp;rdquo;]&lt;/p&gt;
-
-&lt;h1 id=&#34;optional-external-url-for-project-replaces-project-detail-page&#34;&gt;Optional external URL for project (replaces project detail page).&lt;/h1&gt;
-
-&lt;p&gt;#external_link = &amp;ldquo;&lt;a href=&#34;https://kwb-r.github.io/fakin.blog&amp;quot;&#34; target=&#34;_blank&#34;&gt;https://kwb-r.github.io/fakin.blog&amp;quot;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;slides-optional&#34;&gt;Slides (optional).&lt;/h1&gt;
-
-&lt;h1 id=&#34;associate-this-project-with-markdown-slides&#34;&gt;Associate this project with Markdown slides.&lt;/h1&gt;
-
-&lt;h1 id=&#34;simply-enter-your-slide-deck-s-filename-without-extension&#34;&gt;Simply enter your slide deck&amp;rsquo;s filename without extension.&lt;/h1&gt;
-
-&lt;h1 id=&#34;e-g-slides-example-slides-references&#34;&gt;E.g. &lt;code&gt;slides = &amp;quot;example-slides&amp;quot;&lt;/code&gt; references&lt;/h1&gt;
-
-&lt;h1 id=&#34;content-slides-example-slides-md&#34;&gt;&lt;code&gt;content/slides/example-slides.md&lt;/code&gt;.&lt;/h1&gt;
-
-&lt;h1 id=&#34;otherwise-set-slides&#34;&gt;Otherwise, set &lt;code&gt;slides = &amp;quot;&amp;quot;&lt;/code&gt;.&lt;/h1&gt;
-
-&lt;p&gt;slides = &amp;ldquo;&amp;rdquo;&lt;/p&gt;
-
-&lt;h1 id=&#34;links-optional&#34;&gt;Links (optional).&lt;/h1&gt;
-
-&lt;p&gt;#url_pdf = &amp;ldquo;&lt;a href=&#34;https://github.com/kwb-r/fakin.doc&amp;quot;&#34; target=&#34;_blank&#34;&gt;https://github.com/kwb-r/fakin.doc&amp;quot;&lt;/a&gt;
-url_slides = &amp;ldquo;&amp;rdquo;
-url_video = &amp;ldquo;&amp;rdquo;
-url_code = &amp;ldquo;&lt;a href=&#34;https://github.com/topics/project-fakin&amp;quot;&#34; target=&#34;_blank&#34;&gt;https://github.com/topics/project-fakin&amp;quot;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;custom-links-optional&#34;&gt;Custom links (optional).&lt;/h1&gt;
-
-&lt;h1 id=&#34;uncomment-line-below-to-enable-for-multiple-links-use-the-form&#34;&gt;Uncomment line below to enable. For multiple links, use the form &lt;code&gt;[{...}, {...}, {...}]&lt;/code&gt;.&lt;/h1&gt;
-
-&lt;p&gt;#url_custom = [{icon_pack = &amp;ldquo;fab&amp;rdquo;, icon=&amp;ldquo;twitter&amp;rdquo;, name=&amp;ldquo;Follow&amp;rdquo;, url = &amp;ldquo;&lt;a href=&#34;https://twitter.com/Mi&amp;quot;}&#34; target=&#34;_blank&#34;&gt;https://twitter.com/Mi&amp;quot;}&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;url_custom = [{icon_pack = &amp;ldquo;fas&amp;rdquo;, icon=&amp;ldquo;bullseye&amp;rdquo;, name=&amp;ldquo;Factsheet&amp;rdquo;, url = &amp;ldquo;&lt;a href=&#34;https://www.kompetenz-wasser.de/en/project/fakin-research-data-management/&amp;quot;&#34; target=&#34;_blank&#34;&gt;https://www.kompetenz-wasser.de/en/project/fakin-research-data-management/&amp;quot;&lt;/a&gt;}, {icon_pack = &amp;ldquo;fas&amp;rdquo;, icon=&amp;ldquo;book&amp;rdquo;, name=&amp;ldquo;Documentation&amp;rdquo;, url = &amp;ldquo;&lt;a href=&#34;https://kwb-r.github.io/fakin.doc/&amp;quot;}&#34; target=&#34;_blank&#34;&gt;https://kwb-r.github.io/fakin.doc/&amp;quot;}&lt;/a&gt;]&lt;/p&gt;
-
-&lt;h1 id=&#34;featured-image&#34;&gt;Featured image&lt;/h1&gt;
-
-&lt;h1 id=&#34;to-use-add-an-image-named-featured-jpg-png-to-your-project-s-folder&#34;&gt;To use, add an image named &lt;code&gt;featured.jpg/png&lt;/code&gt; to your project&amp;rsquo;s folder.&lt;/h1&gt;
-
-&lt;p&gt;[image]
-  # Caption (optional)
-  caption = &amp;ldquo;Photo by digitalbevaring.dk&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;# Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = &amp;ldquo;Smart&amp;rdquo;
-+++&lt;/p&gt;
-</description>
     </item>
     
   </channel>
