@@ -186,7 +186,7 @@
     <url>
     
       <loc>https://mrustl.de/tags/r-package/</loc>
-      <lastmod>2018-07-11T00:00:00+00:00</lastmod>
+      <lastmod>2018-12-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -222,7 +222,7 @@
     <url>
     
       <loc>https://mrustl.de/tags/</loc>
-      <lastmod>2018-07-11T00:00:00+00:00</lastmod>
+      <lastmod>2018-12-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -304,6 +304,15 @@
     
       <loc>https://mrustl.de/tags/reproducible-research/</loc>
       <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.de/tags/resilience/</loc>
+      <lastmod>2018-12-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

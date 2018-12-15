@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018 Michael Rustler</copyright>
-    <lastBuildDate>Wed, 11 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mrustl.de/tags/r-package/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>kwb.resilience (v0.1.0): R Package for the Quantification of Technical Resilience</title>
+      <link>https://mrustl.de/publication/matzinger-2018/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/matzinger-2018/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>kwb.fakin (v0.3.0)</title>
