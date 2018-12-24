@@ -373,15 +373,15 @@ defaultContentLanguageInSubdir = false
   #   0: No search engine
   #   1: Built-in (Fuse)
   #   2: Algolia (https://www.algolia.com)
-  engine = 1
+  engine = 2
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
   [params.search.algolia]
-    app_id = ""
-    api_key = ""
-    index_name = ""
-    show_logo = false
+    app_id = "FUZHRLXPF4"
+    api_key = "7fb333226a19b1a7af131612dd428928"
+    index_name = "mrustl_de"
+    show_logo = true
 # Taxonomies.
 [taxonomies]
   tag = "tags"
