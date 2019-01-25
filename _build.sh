@@ -1,6 +1,6 @@
 #!/bin/sh
 
-Rscript -e "blogdown::install_hugo(version = '0.52', force = TRUE)"
+Rscript -e "blogdown::install_hugo(version = '0.53', force = TRUE)"
 Rscript -e "blogdown::build_site()"
 Rscript -e "file.copy(from = 'CNAME', to = 'public/CNAME', overwrite = TRUE)"
 # Uncomment as it is not copied to master branch 
