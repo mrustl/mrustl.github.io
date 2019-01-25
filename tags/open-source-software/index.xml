@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open-source software on </title>
+    <link>https://mrustl.de/tags/open-source-software/</link>
+    <description>Recent content in open-source software on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Michael Rustler</copyright>
+    <lastBuildDate>Tue, 28 Jun 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mrustl.de/tags/open-source-software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wrap your model in an R package!</title>
+      <link>https://mrustl.de/publication/rustler-2016a/</link>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/rustler-2016a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

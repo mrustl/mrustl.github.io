@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hauke Sonnenberg on </title>
+    <link>https://mrustl.de/authors/hauke-sonnenberg/</link>
+    <description>Recent content in Hauke Sonnenberg on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Michael Rustler</copyright>
+    <lastBuildDate>Thu, 13 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mrustl.de/authors/hauke-sonnenberg/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>kwb.resilience (v0.1.0): R Package for the Quantification of Technical Resilience</title>
+      <link>https://mrustl.de/publication/matzinger-2018/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/matzinger-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kwb.fakin (v0.3.0)</title>
+      <link>https://mrustl.de/publication/sonnenberg-2018b/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/sonnenberg-2018b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kwb.wtaq (v0.2.1)</title>
+      <link>https://mrustl.de/publication/sonnenberg-2016/</link>
+      <pubDate>Tue, 06 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/sonnenberg-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wrap Your Model In An R Package</title>
+      <link>https://mrustl.de/talk/user2016/</link>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/talk/user2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wrap your model in an R package!</title>
+      <link>https://mrustl.de/publication/rustler-2016a/</link>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/rustler-2016a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

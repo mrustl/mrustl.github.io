@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
 
   <meta charset="utf-8">
@@ -15,9 +15,13 @@
   
   
   
+    
+    
+    
+  
   
 
-  
+  <meta name="author" content="Michael Rustler">
 
   
   
@@ -27,7 +31,7 @@
   <meta name="description" content="The groundwater drawdown model [WTAQ-2](https://water.usgs.gov/ogw/wtaq/), provided by the United States Geological Survey for free, has been “wrapped&#34; into an [R package](http://kwb-r.github.io/kwb.wtaq/), which contains functions for writing input files, executing the model engine and reading output files. By calling the functions from the R package a sensitivity analysis, calibration or validation requiring multiple model runs can be performed in an automated way. Automation by means of programming improves and simplifies the modelling process by ensuring that the [WTAQ-2](https://water.usgs.gov/ogw/wtaq/) wrapper generates consistent model input files, runs the model engine and reads the output files without requiring the user to cope with the technical details of the communication with the model engine. In addition the [WTAQ-2](https://water.usgs.gov/ogw/wtaq/) wrapper automatically adapts cross-dependent input parameters correctly in case one is changed by the user. This assures the formal correctness of the input file and minimises the effort for the user, who normally has to consider all cross-dependencies for each input file modification manually by consulting the model documentation. Consequently the focus can be shifted on retrieving and preparing the data needed by the model. Modelling is described in the form of version controlled R scripts so that its methodology becomes transparent and modifications (e.g. error fixing) trackable. The code can be run repeatedly and will always produce the same results given the same inputs. The implementation in the form of program code further yields the advantage of inherently documenting the methodology. This leads to reproducible results which should be the basis for smart decision making.">
 
   
-  <link rel="alternate" hreflang="en" href="https://mrustl.de/talk/user2016/">
+  <link rel="alternate" hreflang="en-us" href="https://mrustl.de/talk/user2016/">
 
   
 
@@ -90,7 +94,7 @@
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
   
 
-  <link rel="stylesheet" href="../../styles.css">
+  <link rel="stylesheet" href="/styles.css">
   
 
   
@@ -102,9 +106,9 @@
   <link rel="feed" href="https://mrustl.de/index.xml" type="application/rss+xml" title="">
   
 
-  <link rel="manifest" href="../../site.webmanifest">
-  <link rel="icon" type="image/png" href="../../img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="../../img/icon-192.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
   <link rel="canonical" href="https://mrustl.de/talk/user2016/">
 
@@ -123,7 +127,7 @@
   <meta property="og:url" content="https://mrustl.de/talk/user2016/">
   <meta property="og:title" content="Wrap Your Model In An R Package | ">
   <meta property="og:description" content="The groundwater drawdown model [WTAQ-2](https://water.usgs.gov/ogw/wtaq/), provided by the United States Geological Survey for free, has been “wrapped&#34; into an [R package](http://kwb-r.github.io/kwb.wtaq/), which contains functions for writing input files, executing the model engine and reading output files. By calling the functions from the R package a sensitivity analysis, calibration or validation requiring multiple model runs can be performed in an automated way. Automation by means of programming improves and simplifies the modelling process by ensuring that the [WTAQ-2](https://water.usgs.gov/ogw/wtaq/) wrapper generates consistent model input files, runs the model engine and reads the output files without requiring the user to cope with the technical details of the communication with the model engine. In addition the [WTAQ-2](https://water.usgs.gov/ogw/wtaq/) wrapper automatically adapts cross-dependent input parameters correctly in case one is changed by the user. This assures the formal correctness of the input file and minimises the effort for the user, who normally has to consider all cross-dependencies for each input file modification manually by consulting the model documentation. Consequently the focus can be shifted on retrieving and preparing the data needed by the model. Modelling is described in the form of version controlled R scripts so that its methodology becomes transparent and modifications (e.g. error fixing) trackable. The code can be run repeatedly and will always produce the same results given the same inputs. The implementation in the form of program code further yields the advantage of inherently documenting the methodology. This leads to reproducible results which should be the basis for smart decision making."><meta property="og:image" content="https://mrustl.de/talk/user2016/featured.jpg">
-  <meta property="og:locale" content="en">
+  <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2016-06-28T00:00:00&#43;00:00">
   
@@ -173,7 +177,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="../../"></a>
+      <a class="navbar-brand" href="/"></a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -186,7 +190,7 @@
 
       
       
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav mr-auto">
         
 
         
@@ -198,7 +202,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="../../#about">
+          <a class="nav-link" href="/#about">
             
             <span>Home</span>
             
@@ -217,7 +221,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="../../#publications">
+          <a class="nav-link" href="/#publications">
             
             <span>Publications</span>
             
@@ -236,26 +240,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="../../#talks">
-            
-            <span>Talks</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="../../#projects">
+          <a class="nav-link" href="/#projects">
             
             <span>Projects</span>
             
@@ -274,7 +259,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="../../#contact">
+          <a class="nav-link" href="/#contact">
             
             <span>Contact</span>
             
@@ -284,6 +269,9 @@
         
         
 
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
       
 
         
@@ -353,12 +341,12 @@
   <div>
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
-        Michael Rustler
+        <a href="/authors/michael-rustler/">Michael Rustler</a>
       </span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
-        Hauke Sonnenberg
+        <a href="/authors/hauke-sonnenberg/">Hauke Sonnenberg</a>
       </span>
     </span>
     
@@ -373,7 +361,7 @@
   
   
   <span class="middot-divider"></span>
-  <a href="../../talk/user2016/#disqus_thread"></a>
+  <a href="/talk/user2016/#disqus_thread"></a>
   
 
   
@@ -428,7 +416,7 @@
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="../../project/optiwells-2/">
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/optiwells-2/">
     Project
   </a>
   
@@ -508,7 +496,7 @@
     </div>
     <div class="col-6">
       <div class="split-header-image">
-        <img src="../../talk/user2016/featured_hucdeeefec024e3bfb432290d6fd75dee8_30296_680x500_fill_q90_box_right.jpg" itemprop="image" alt="">
+        <img src="/talk/user2016/featured_hucdeeefec024e3bfb432290d6fd75dee8_30296_680x500_fill_q90_box_right.jpg" itemprop="image" alt="">
         <span class="article-header-caption">Image credit: <a href="https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/Wrap-your-model-in-an-R-package" target="_blank"><strong>Channel 9, Microsoft</strong></a></span>
       </div>
     </div>
@@ -535,12 +523,12 @@
   <div>
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
-        Michael Rustler
+        <a href="/authors/michael-rustler/">Michael Rustler</a>
       </span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
-        Hauke Sonnenberg
+        <a href="/authors/hauke-sonnenberg/">Hauke Sonnenberg</a>
       </span>
     </span>
     
@@ -555,7 +543,7 @@
   
   
   <span class="middot-divider"></span>
-  <a href="../../talk/user2016/#disqus_thread"></a>
+  <a href="/talk/user2016/#disqus_thread"></a>
   
 
   
@@ -652,7 +640,7 @@
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="../../project/optiwells-2/">
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/optiwells-2/">
     Project
   </a>
   
@@ -761,11 +749,11 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="../../tags/r-package/">R package</a>
+  <a class="badge badge-light" href="/tags/r-package/">R package</a>
   
-  <a class="badge badge-light" href="../../tags/groundwater-modelling/">groundwater modelling</a>
+  <a class="badge badge-light" href="/tags/groundwater-modelling/">groundwater modelling</a>
   
-  <a class="badge badge-light" href="../../tags/reproducibility/">reproducibility</a>
+  <a class="badge badge-light" href="/tags/reproducibility/">reproducibility</a>
   
 </div>
 
@@ -787,6 +775,195 @@
 
 
 
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  
+  <img class="portrait mr-3" src="/author/michael-rustler/avatar_hud2c4ff75b513a216711f97839c2213f7_55812_250x250_fill_q75_box_center.jpg" itemprop="image" alt="Avatar">
+  
+
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/authors/michael-rustler">Michael Rustler</a></h5>
+    <h6 class="card-subtitle">Data scientist</h6>
+    <p class="card-text" itemprop="description">My research interests include reproducible resarch, data management and programming (R &amp; Python).</p>
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://twitter.com/MichaelRustler" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://linkedin.com/in/michael-rustler-61497911" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://scholar.google.de/citations?user=hD2epVEAAAAJ&amp;hl=de&amp;oi=ao" target="_blank" rel="noopener">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://orcid.org/0000-0003-0647-7726" target="_blank" rel="noopener">
+          <i class="ai ai-orcid"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://researchgate.net/profile/Michael_Rustler" target="_blank" rel="noopener">
+          <i class="ai ai-researchgate"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://osf.io/85sxj" target="_blank" rel="noopener">
+          <i class="ai ai-osf"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://zotero.org/mrustl" target="_blank" rel="noopener">
+          <i class="ai ai-zotero"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https:///mendeley.com/profiles/michael-rustler" target="_blank" rel="noopener">
+          <i class="ai ai-mendeley"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://depsy.org/person/335215" target="_blank" rel="noopener">
+          <i class="ai ai-depsy"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/mrustl" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://profiles.impactstory.org/u/0000-0003-0647-7726" target="_blank" rel="noopener">
+          <i class="ai ai-impactstory"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
 
 
 
@@ -801,7 +978,7 @@
   
 
   <p class="powered-by">
-    &copy; 2018 Michael Rustler &middot; 
+    &copy; 2019 Michael Rustler &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
@@ -852,7 +1029,7 @@
     
     
     
-    <script src="../../js/mathjax-config.js"></script>
+    <script src="/js/mathjax-config.js"></script>
     
 
     
@@ -867,10 +1044,6 @@
       
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-        
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
-        
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
         
       
 
@@ -961,7 +1134,7 @@
     
     
     
-    <script src="../../js/academic.min.7dfccb82529fdac16120259b57f6c833.js"></script>
+    <script src="/js/academic.min.7dfccb82529fdac16120259b57f6c833.js"></script>
 
     
 

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on </title>
+    <link>https://mrustl.de/publication/</link>
+    <description>Recent content in Publications on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Michael Rustler</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mrustl.de/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>kwb.resilience (v0.1.0): R Package for the Quantification of Technical Resilience</title>
+      <link>https://mrustl.de/publication/matzinger-2018/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/matzinger-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kwb.fakin (v0.3.0)</title>
+      <link>https://mrustl.de/publication/sonnenberg-2018b/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/sonnenberg-2018b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aquanes.Report (V0.5.0)</title>
+      <link>https://mrustl.de/publication/rustler-2018/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/rustler-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aquanes.Report (V.0.4.0)</title>
+      <link>https://mrustl.de/publication/rustler-2017/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/rustler-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantitative microbiological risk assessment for different wastewater reuse options in Old Ford (v.1.0)</title>
+      <link>https://mrustl.de/publication/rustler-2016d/</link>
+      <pubDate>Fri, 07 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/rustler-2016d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kwb.qmra (v0.1.1)</title>
+      <link>https://mrustl.de/publication/rustler-2016c/</link>
+      <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/rustler-2016c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kwb.hantush (v0.2.1)</title>
+      <link>https://mrustl.de/publication/rustler-2016b/</link>
+      <pubDate>Tue, 06 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/rustler-2016b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kwb.wtaq (v0.2.1)</title>
+      <link>https://mrustl.de/publication/sonnenberg-2016/</link>
+      <pubDate>Tue, 06 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/sonnenberg-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wrap your model in an R package!</title>
+      <link>https://mrustl.de/publication/rustler-2016a/</link>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/rustler-2016a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Best data handling practices in water-related research</title>
+      <link>https://mrustl.de/publication/sonnenberg-2013/</link>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/sonnenberg-2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
