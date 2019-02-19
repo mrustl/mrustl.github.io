@@ -1,7 +1,7 @@
 +++
 title = "kwb.wtaq (v0.2.1)"
 date = 2016-09-06
-authors = ["Hauke Sonnenberg", "Michael Rustler"]
+authors = ["Hauke Sonnenberg", "rustler"]
 publication_types = ["0"]
 abstract = ""
 selected = false

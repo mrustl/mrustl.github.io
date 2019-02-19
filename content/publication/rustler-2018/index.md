@@ -1,7 +1,7 @@
 +++
 title = "Aquanes.Report (V0.5.0)"
 date = 2018-05-09
-authors = ["Michael Rustler"]
+authors = ["rustler"]
 publication_types = ["0"]
 abstract = ""
 selected = false

@@ -1,7 +1,7 @@
 +++
 title = "kwb.fakin (v0.3.0)"
 date = 2018-07-11
-authors = ["Hauke Sonnenberg", "Michael Rustler"]
+authors = ["Hauke Sonnenberg", "rustler"]
 publication_types = ["0"]
 abstract = ""
 selected = false

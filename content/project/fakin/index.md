@@ -27,14 +27,19 @@ slides = ""
 #url_pdf = "https://github.com/kwb-r/fakin.doc"
 url_slides = ""
 url_video = ""
-url_code = "https://github.com/topics/project-fakin"
+url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 #url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/Mi"}]
 
 
-url_custom = [{icon_pack = "fas", icon="bullseye", name="Factsheet", url = "https://www.kompetenz-wasser.de/en/project/fakin-research-data-management/"}, {icon_pack = "fas", icon="book", name="Documentation", url = "https://kwb-r.github.io/fakin.doc/"}]
+url_custom = [
+{icon_pack = "fas", icon="home", name="Project Website", url = "https://kwb-r.gitlab.io/fakin"},
+{icon_pack = "fas", icon="bullseye", name="Project Factsheet", url = "https://www.kompetenz-wasser.de/en/project/fakin-research-data-management/"}, 
+{icon_pack = "fas", icon="code", name="Code", url = "https://github.com/topics/project-optiwells2"}, 
+]
+
 
 
 # Featured image

@@ -1,7 +1,7 @@
 +++
 title = "Best data handling practices in water-related research"
 date = 2013-09-01
-authors = ["H. Sonnenberg", "M. Rustler", "M. Riechel", "N. Caradot", "P. Rouault", "A. Matzinger"]
+authors = ["H. Sonnenberg", "rustler", "M. Riechel", "N. Caradot", "P. Rouault", "A. Matzinger"]
 publication_types = ["2"]
 abstract = ""
 selected = false

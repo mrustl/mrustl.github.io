@@ -77,9 +77,11 @@
         {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\">" (printf $css.highlight.url $css.highlight.version .) | safeHTML }}
       {{ else }}
         {{ if eq ($scr.Get "light") true }}
-          {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\">" (printf $css.highlight.url $css.highlight.version "github") | safeHTML }}
+          {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\" title=\"hl-light\">" (printf $css.highlight.url $css.highlight.version "github") | safeHTML }}
+          {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\" title=\"hl-dark\" disabled>" (printf $css.highlight.url $css.highlight.version "dracula") | safeHTML }}
         {{ else }}
-          {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\">" (printf $css.highlight.url $css.highlight.version "dracula") | safeHTML }}
+          {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\" title=\"hl-light\" disabled>" (printf $css.highlight.url $css.highlight.version "github") | safeHTML }}
+          {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\" title=\"hl-dark\">" (printf $css.highlight.url $css.highlight.version "dracula") | safeHTML }}
         {{ end }}
       {{ end }}
     {{ end }}
@@ -101,8 +103,16 @@
   {{ end }}
 
   <link rel="stylesheet" href="{{ "styles.css" | relLangURL }}">
-  {{ range .Site.Params.custom_css }}
-  <link rel="stylesheet" href="{{ "/css/" | relURL }}{{ . }}">
+  {{ if .Site.Params.plugins_css }}
+    {{ $css_comment := printf "/* Source Themes Academic v%s | https://sourcethemes.com/academic/ */\n" .Site.Data.academic.version }}
+    {{ $css_bundle_head := $css_comment | resources.FromString "css/bundle-head.css" }}
+    {{ $css_bundle := slice }}
+    {{ range .Site.Params.plugins_css }}
+      {{ $css_bundle = $css_bundle | append (resources.Get (printf "css/%s.css" .)) }}
+    {{ end }}
+    {{ $css_bundle := $css_bundle | resources.Concat "css/academic-bundle-pre.css" | minify }}
+    {{ $css_bundle := slice $css_bundle_head $css_bundle | resources.Concat "css/academic.css" | fingerprint "md5" }}
+    <link rel="stylesheet" href="{{ $css_bundle.RelPermalink }}">
   {{ end }}
 
   {{ if not .Site.IsServer }}

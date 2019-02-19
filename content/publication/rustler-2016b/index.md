@@ -1,7 +1,7 @@
 +++
 title = "kwb.hantush (v0.2.1)"
 date = 2016-09-06
-authors = ["Michael Rustler"]
+authors = ["rustler"]
 publication_types = ["0"]
 abstract = ""
 selected = false

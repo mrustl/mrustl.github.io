@@ -1,7 +1,7 @@
 +++
 title = "kwb.qmra (v0.1.1)"
 date = 2016-09-15
-authors = ["Michael Rustler"]
+authors = ["rustler"]
 publication_types = ["0"]
 abstract = ""
 selected = false

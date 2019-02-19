@@ -28,12 +28,16 @@ slides = ""
 url_pdf = ""
 url_slides = ""
 url_video = ""
-url_code = "https://github.com/topics/project-optiwells2"
+url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 #url_custom = [{icon_pack = "fas", icon="code", name="Code", url = "https://github.com/topics/project-optiwells2"}]
-url_custom = [{icon_pack = "fas", icon="book", name="Documentation", url = "https://www.kompetenz-wasser.de/en/project/optiwells-2-betriebsoptimierung-von-trinkwasserbrunnen/"}]
+url_custom = [
+{icon_pack = "fas", icon="bullseye", name="Project Factsheet", url = "https://www.kompetenz-wasser.de/en/project/optiwells-2-betriebsoptimierung-von-trinkwasserbrunnen/"}, 
+{icon_pack = "fas", icon="code", name="Code", url = "https://github.com/topics/project-optiwells2"}, 
+]
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
