@@ -10,6 +10,9 @@ cache:
     - $HOME/bin
 pandoc_version: 2.5
 before_script:
+  - add-apt-repository ppa:ubuntu-toolchain-r/test -y
+  - apt-get update 
+  - apt-get install libstdc++6
   - chmod +x ./_build.sh
   - chmod +x ./_deploy.sh
 script:
