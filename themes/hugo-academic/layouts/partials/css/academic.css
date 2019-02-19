@@ -559,22 +559,58 @@ a[data-fancybox] img {
 
 .hero-overlay .hero-title,
 .hero-overlay .hero-lead,
-.hero-overlay .btn {
+.hero-overlay .hero-cta-alt,
+.hero-overlay .hero-note {
   color: #fff;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  /*text-shadow: 1px 1px 4px rgba(0,0,0,0.5);*/ /* Uncomment to standout on complicated backgrounds. */
 }
 
-.hero-overlay a {
+.hero-overlay a:not(.hero-overlay .btn) {
   color: #fff;
 }
 
 .hero-overlay .hero-lead a {
-  color: #fff;
-  text-decoration-line: underline;
+  text-decoration: underline;
+}
+
+.hero-overlay .cta-btns {
+  margin-bottom: 16px;
+}
+
+.hero-overlay .btn {
+  color: {{ .Get "primary_dark" }};
+  padding: .6em 2.1em;
+}
+
+a.hero-cta-alt {
+  display: inline-block;
+  position: relative;
+  transition-duration: .2s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  font-size: 1.1rem;
+}
+
+a.hero-cta-alt:active,
+a.hero-cta-alt:focus,
+a.hero-cta-alt:hover {
+  transform: scale(1.1);
 }
 
 .hero-overlay .btn-lg {
   font-size: 1.1rem;
+}
+
+.hero-overlay .hero-note {
+  font-size: 0.8rem;
+}
+
+.hero-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
 }
 
 /*************************************************
@@ -1007,11 +1043,13 @@ article .article-metadata {
   margin-bottom: 2rem;
 }
 
-.media.stream-item .article-title {
+.media.stream-item .article-title,
+.card-simple .article-title {
   font-size: 1.2rem;
 }
 
-.media.stream-item .article-style {
+.media.stream-item .article-style,
+.card-simple .article-style {
   margin-top: 2px;
   font-size: 0.8rem;
 }
@@ -1096,14 +1134,34 @@ article .article-metadata {
 }
 
 /*************************************************
- *  Publications
+ *  List items
  **************************************************/
+
+.view-list-item {
+  margin-bottom: 1rem;
+}
 
 .pub-icon {
   color: rgba(0, 0, 0, 0.54);
   font-size: 0.81em;
-  padding-top: 6px;
+  padding-right: 6px;
 }
+
+.view-list-item .article-metadata {
+  margin-bottom: 0;
+}
+
+.pub-list-item .pub-abstract {
+  font-size: 1rem;
+}
+
+.pub-list-item .btn-links {
+  padding-top: 10px;
+}
+
+/*************************************************
+ *  Publications
+ **************************************************/
 
 .pub-banner {
   max-width: 100%;
@@ -1114,14 +1172,6 @@ article .article-metadata {
 
 .pub-row-heading {
   font-weight: bold;
-}
-
-.pub-list-item .pub-abstract {
-  font-size: 1rem;
-}
-
-.pub-list-item .btn-links {
-  padding-top: 10px;
 }
 
 #container-publications {
@@ -1217,8 +1267,31 @@ article .article-metadata {
   margin-bottom: 2rem;
 }
 
+.project-card {
+  position: relative;
+  width: calc(33.3% - 2*20px); /* Fluid 3 columns (inc. 20px gutter) */
+}
+@media screen and (max-width: 1199px) {
+  .project-card {
+    width: calc(50% - 20px); /* Fluid 2 columns (inc. 20px gutter) */
+  }
+}
+@media screen and (max-width: 768px) {
+  .project-card {
+    width: 100%; /* 1 column */
+  }
+}
+
 .project-item {
   margin-bottom: 1.5rem;
+}
+
+.project-card.project-item {
+  margin: 0 0 20px 0; /* Set to Isotope's gutter size */
+}
+
+.project-card .card {
+  margin: 0; /* Remove default card margin and use Isotope gutter */
 }
 
 .project-showcase .project-item {
@@ -1463,6 +1536,29 @@ footer a#back_to_top i {
 a.badge:focus,
 a.badge:hover {
   color: rgba(0,0,0,.68);
+}
+
+.tag-cloud a {
+  display: inline-block;
+  position: relative;
+  margin: 5px 10px;
+  word-wrap: break-word;
+  transition-duration: .2s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.tag-cloud a:active,
+.tag-cloud a:focus,
+.tag-cloud a:hover {
+  color: {{ .Get "primary_dark" }};
+  transform: scale(1.2);
+}
+
+.dark .tag-cloud a:active,
+.dark .tag-cloud a:focus,
+.dark .tag-cloud a:hover {
+  color: {{ .Get "primary_light" }};
 }
 
 /*************************************************

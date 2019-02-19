@@ -26,3 +26,4 @@ vignettes/*.pdf
 public
 secret.csv
 import_bibtex.bat
+resources

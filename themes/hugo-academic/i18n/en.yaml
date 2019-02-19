@@ -74,7 +74,10 @@
 
 - id: education
   translation: Education
-  
+
+- id: user_profile_latest
+  translation: Latest
+
 # Accomplishments widget
 
 - id: see_certificate
@@ -91,9 +94,6 @@
   translation: See all publications
 
 # Posts widget
-
-- id: continue_reading
-  translation: CONTINUE READING
 
 - id: more_posts
   translation: See all posts
@@ -163,14 +163,6 @@
 
 - id: pub_book_section
   translation: Book section
-
-# Filtering
-
-- id: filter_by_type
-  translation: Filter by type
-
-- id: filter_all
-  translation: All
 
 # Project details
 
