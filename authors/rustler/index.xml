@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Michael Rustler on </title>
-    <link>https://mrustl.de/authors/michael-rustler/</link>
-    <description>Recent content in Michael Rustler on </description>
+    <title>rustler on </title>
+    <link>https://mrustl.de/authors/rustler/</link>
+    <description>Recent content in rustler on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Michael Rustler</copyright>
     <lastBuildDate>Thu, 13 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mrustl.de/authors/michael-rustler/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mrustl.de/authors/rustler/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -100,6 +100,24 @@
       
       <guid>https://mrustl.de/publication/rustler-2016a/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Best data handling practices in water-related research</title>
+      <link>https://mrustl.de/publication/sonnenberg-2013/</link>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/publication/sonnenberg-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mrustl.de/author/rustler/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/author/rustler/</guid>
+      <description>Michael Rustler works as data scientist at the Kompetenzzentrum Wasser Berlin gGmbH (KWB). His research interests include reproducible research, data management and programmable matter. He currently leads the project FAKIN with the goal to improve the research data management and workflows at KWB, a small non-university institute (~ 20 scientists in three departments).</description>
     </item>
     
   </channel>

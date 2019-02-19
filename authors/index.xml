@@ -31,42 +31,6 @@
     </item>
     
     <item>
-      <title>C. Merkel</title>
-      <link>https://mrustl.de/authors/c.-merkel/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mrustl.de/authors/c.-merkel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>C. Sprenger</title>
-      <link>https://mrustl.de/authors/c.-sprenger/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mrustl.de/authors/c.-sprenger/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>H. Schwarzmueller</title>
-      <link>https://mrustl.de/authors/h.-schwarzmueller/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mrustl.de/authors/h.-schwarzmueller/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>H. Schwarzmüller</title>
-      <link>https://mrustl.de/authors/h.-schwarzm%C3%BCller/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mrustl.de/authors/h.-schwarzm%C3%BCller/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>H. Sonnenberg</title>
       <link>https://mrustl.de/authors/h.-sonnenberg/</link>
       <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
@@ -85,38 +49,11 @@
     </item>
     
     <item>
-      <title>M. Pfeifer</title>
-      <link>https://mrustl.de/authors/m.-pfeifer/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mrustl.de/authors/m.-pfeifer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>M. Riechel</title>
       <link>https://mrustl.de/authors/m.-riechel/</link>
       <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
       
       <guid>https://mrustl.de/authors/m.-riechel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>M. Rustler</title>
-      <link>https://mrustl.de/authors/m.-rustler/</link>
-      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://mrustl.de/authors/m.-rustler/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Michael Rustler</title>
-      <link>https://mrustl.de/authors/michael-rustler/</link>
-      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://mrustl.de/authors/michael-rustler/</guid>
       <description></description>
     </item>
     
@@ -135,6 +72,15 @@
       <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
       
       <guid>https://mrustl.de/authors/p.-rouault/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rustler</title>
+      <link>https://mrustl.de/authors/rustler/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mrustl.de/authors/rustler/</guid>
       <description></description>
     </item>
     

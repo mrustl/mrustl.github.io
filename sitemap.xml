@@ -60,14 +60,6 @@
     
     <url>
     
-      <loc>https://mrustl.de/publication/rn-1016/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://mrustl.de/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -141,7 +133,7 @@
     <url>
     
       <loc>https://mrustl.de/</loc>
-      <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+      <lastmod>2017-09-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -149,21 +141,7 @@
     
     <url>
     
-      <loc>https://mrustl.de/author/h.-schwarzmueller/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://mrustl.de/author/h.-schwarzm%C3%BCller/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://mrustl.de/author/michael-rustler/</loc>
+      <loc>https://mrustl.de/author/rustler/</loc>
     </url>
     
   
@@ -181,15 +159,6 @@
     
       <loc>https://mrustl.de/publication_types/2/</loc>
       <lastmod>2013-09-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://mrustl.de/publication_types/4/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -232,43 +201,7 @@
     
     <url>
     
-      <loc>https://mrustl.de/authors/c.-merkel/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://mrustl.de/authors/c.-sprenger/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://mrustl.de/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://mrustl.de/authors/h.-schwarzmueller/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://mrustl.de/authors/h.-schwarzm%C3%BCller/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -294,35 +227,8 @@
     
     <url>
     
-      <loc>https://mrustl.de/authors/m.-pfeifer/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://mrustl.de/authors/m.-riechel/</loc>
       <lastmod>2013-09-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://mrustl.de/authors/m.-rustler/</loc>
-      <lastmod>2013-09-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://mrustl.de/authors/michael-rustler/</loc>
-      <lastmod>2018-12-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -493,6 +399,15 @@
     <url>
     
       <loc>https://mrustl.de/tags/resilience/</loc>
+      <lastmod>2018-12-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mrustl.de/authors/rustler/</loc>
       <lastmod>2018-12-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
