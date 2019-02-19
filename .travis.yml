@@ -11,8 +11,8 @@ cache:
 pandoc_version: 2.5
 before_script:
   - sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
-  - sudo apt-get update --allow-unauthenticated 
-  - sudo apt-get upgrade
+  - sudo apt-get update --allow-unauthenticated -y
+  - sudo apt-get upgrade --allow-unauthenticated -y
   - sudo apt-get install build-essential
   - sudo apt-get install aptitude
   - sudo apt-get install libstdc++6
