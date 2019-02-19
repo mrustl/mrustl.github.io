@@ -10,9 +10,17 @@ cache:
     - $HOME/bin
 pandoc_version: 2.5
 before_script:
+  - sudo apt-get remove -y postgresql-9.3
+  - sudo apt-get remove -y postgresql-contrib-9.3
+  - sudo apt-get remove -y postgresql-9.4
+  - sudo apt-get remove -y postgresql-contrib-9.4
+  - sudo apt-get remove -y postgresql-9.5
+  - sudo apt-get remove -y postgresql-contrib-9.5
+  - sudo apt-get remove -y postgresql-9.6
+  - sudo apt-get remove -y postgresql-contrib-9.6
   - sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
   - sudo apt-get update --allow-unauthenticated -y
-  - sudo apt-get upgrade --allow-unauthenticated -y
+  - sudo apt-get upgrade --allow-unauthenticated -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold"
   - sudo apt-get install build-essential
   - sudo apt-get install aptitude
   - sudo apt-get install libstdc++6
